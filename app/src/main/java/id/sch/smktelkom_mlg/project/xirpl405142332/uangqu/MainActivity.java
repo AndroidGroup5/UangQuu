@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 // TODO Auto-generated method stub
-                Intent inte = new Intent(MainActivity.this, BuatBiodata.class);
-                startActivity(inte);
+                Intent intent = new Intent(MainActivity.this, BuatBiodata.class);
+                startActivity(intent);
             }
         });
 

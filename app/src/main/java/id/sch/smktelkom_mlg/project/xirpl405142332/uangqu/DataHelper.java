@@ -25,8 +25,6 @@ public class DataHelper extends SQLiteOpenHelper {
         String sql = "create table biodata(no integer primary key, nama text null, tanggallahir text null, jeniskelamin text null, alamat text null);";
         Log.d("Data", "onCreate: " + sql);
         db.execSQL(sql);
-        sql = "INSERT INTO biodata (no, nama, tanggallahir, jeniskelamin, alamat) VALUES ('1001', 'Fathur', '1994-02-03', 'Laki-laki','Jakarta');";
-        db.execSQL(sql);
 
     }
 

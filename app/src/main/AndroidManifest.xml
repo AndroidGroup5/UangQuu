@@ -25,9 +25,10 @@
         <activity
             android:name="id.sch.smktelkom_mlg.project.xirpl405142332.uangqu.MainActivity"
             android:label="@string/app_name">
-
         </activity>
-
+        <activity android:name=".BuatBiodata" />
+        <activity android:name=".LihatBiodata" />
+        <activity android:name=".UpdateBiodata"></activity>
     </application>
 
 </manifest>

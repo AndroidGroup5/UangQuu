@@ -4,8 +4,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class UpdateBiodata extends AppCompatActivity {
     protected Cursor cursor;
@@ -36,5 +38,32 @@ public class UpdateBiodata extends AppCompatActivity {
             text4.setText(cursor.getString(3).toString());
             text5.setText(cursor.getString(4).toString());
         }
+        ton1 = (Button) findViewById(R.id.button1);
+        ton2 = (Button) findViewById(R.id.button2);
+        // daftarkan even onClick pada btnSimpan
+        ton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                SQLiteDatabase db = dbHelper.getWritableDatabase();
+                db.execSQL("update biodata set nama='" +
+                        text2.getText().toString() + "', tanggallahir='" +
+                        text3.getText().toString() + "', jeniskelamin='" +
+                        text4.getText().toString() + "', alamat='" +
+                        text5.getText().toString() + "' where no='" +
+                        text1.getText().toString() + "'");
+                Toast.makeText(getApplicationContext(), "Berhasil", Toast.LENGTH_LONG).show();
+                MainActivity.ma.RefreshList();
+                finish();
+            }
+        });
+        ton2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                finish();
+            }
+        });
     }
 }
