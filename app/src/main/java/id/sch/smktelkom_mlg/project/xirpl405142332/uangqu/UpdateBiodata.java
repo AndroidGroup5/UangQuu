@@ -1,6 +1,7 @@
 package id.sch.smktelkom_mlg.project.xirpl405142332.uangqu;
 
 import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
@@ -16,5 +17,24 @@ public class UpdateBiodata extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update_biodata);
+
+        dbHelper = new DataHelper(this);
+        text1 = (EditText) findViewById(R.id.editText1);
+        text2 = (EditText) findViewById(R.id.editText2);
+        text3 = (EditText) findViewById(R.id.editText3);
+        text4 = (EditText) findViewById(R.id.editText4);
+        text5 = (EditText) findViewById(R.id.editText5);
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        cursor = db.rawQuery("SELECT * FROM biodata WHERE nama = '" +
+                getIntent().getStringExtra("nama") + "'", null);
+        cursor.moveToFirst();
+        if (cursor.getCount() > 0) {
+            cursor.moveToPosition(0);
+            text1.setText(cursor.getString(0).toString());
+            text2.setText(cursor.getString(1).toString());
+            text3.setText(cursor.getString(2).toString());
+            text4.setText(cursor.getString(3).toString());
+            text5.setText(cursor.getString(4).toString());
+        }
     }
 }
