@@ -4,6 +4,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -36,5 +37,14 @@ public class LihatBiodata extends AppCompatActivity {
             text4.setText(cursor.getString(3).toString());
             text5.setText(cursor.getString(4).toString());
         }
+        ton2 = (Button) findViewById(R.id.button1);
+        ton2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                // TODO Auto-generated method stub
+                finish();
+            }
+        });
     }
 }
