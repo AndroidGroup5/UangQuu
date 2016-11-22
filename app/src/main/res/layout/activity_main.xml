@@ -20,7 +20,7 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/button1"
         android:drawableLeft="@drawable/ic_add"
-        android:text="Buat Biodata Baru" />
+        android:text="     Tambah Catatan Baru" />
 
     <ListView
         android:id="@+id/listView1"

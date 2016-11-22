@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class LihatBiodata extends AppCompatActivity {
+public class LihatData extends AppCompatActivity {
     protected Cursor cursor;
     DataHelper dbHelper;
     Button ton2;
@@ -17,14 +17,13 @@ public class LihatBiodata extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lihat_biodata);
+        setContentView(R.layout.activity_lihat_data);
 
         dbHelper = new DataHelper(this);
         text1 = (TextView) findViewById(R.id.textView1);
         text2 = (TextView) findViewById(R.id.textView2);
         text3 = (TextView) findViewById(R.id.textView3);
         text4 = (TextView) findViewById(R.id.textView4);
-        text5 = (TextView) findViewById(R.id.textView5);
         SQLiteDatabase db = dbHelper.getReadableDatabase();
         cursor = db.rawQuery("SELECT * FROM biodata WHERE nama = '" +
                 getIntent().getStringExtra("nama") + "'", null);
@@ -35,7 +34,6 @@ public class LihatBiodata extends AppCompatActivity {
             text2.setText(cursor.getString(1).toString());
             text3.setText(cursor.getString(2).toString());
             text4.setText(cursor.getString(3).toString());
-            text5.setText(cursor.getString(4).toString());
         }
         ton2 = (Button) findViewById(R.id.button1);
         ton2.setOnClickListener(new View.OnClickListener() {

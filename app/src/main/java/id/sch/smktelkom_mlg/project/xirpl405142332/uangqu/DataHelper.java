@@ -1,9 +1,5 @@
 package id.sch.smktelkom_mlg.project.xirpl405142332.uangqu;
 
-/**
- * Created by Ridjal Fathoni on 17/11/2016.
- */
-
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -11,18 +7,17 @@ import android.util.Log;
 
 public class DataHelper extends SQLiteOpenHelper {
 
-    private static final String DATABASE_NAME = "android.db";
+    private static final String DATABASE_NAME = "biodatadiri.db";
     private static final int DATABASE_VERSION = 1;
-
     public DataHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
-        // TODO Auto-generated constructor stubz
+        // TODO Auto-generated constructor stub
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         // TODO Auto-generated method stub
-        String sql = "create table biodata(no integer primary key, nama text null, tanggallahir text null, jeniskelamin text null, alamat text null);";
+        String sql = "create table biodata(no integer primary key, nama text null, tgl text null, jk text null, alamat text null);";
         Log.d("Data", "onCreate: " + sql);
         db.execSQL(sql);
 

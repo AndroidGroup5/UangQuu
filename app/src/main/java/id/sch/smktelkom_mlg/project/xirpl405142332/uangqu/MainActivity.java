@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 // TODO Auto-generated method stub
-                Intent intent = new Intent(MainActivity.this, BuatBiodata.class);
-                startActivity(intent);
+                Intent inte = new Intent(MainActivity.this, BuatData.class);
+                startActivity(inte);
             }
         });
 
@@ -70,12 +70,12 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int item) {
                         switch (item) {
                             case 0:
-                                Intent i = new Intent(getApplicationContext(), LihatBiodata.class);
+                                Intent i = new Intent(getApplicationContext(), LihatData.class);
                                 i.putExtra("nama", selection);
                                 startActivity(i);
                                 break;
                             case 1:
-                                Intent in = new Intent(getApplicationContext(), UpdateBiodata.class);
+                                Intent in = new Intent(getApplicationContext(), UpdateData.class);
                                 in.putExtra("nama", selection);
                                 startActivity(in);
                                 break;
