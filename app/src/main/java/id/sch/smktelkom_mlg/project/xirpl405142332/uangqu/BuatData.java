@@ -18,6 +18,7 @@ public class BuatData extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Tambah Catatan");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buat_data);
 

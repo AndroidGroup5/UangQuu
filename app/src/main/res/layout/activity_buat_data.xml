@@ -88,6 +88,6 @@
             android:layout_alignBaseline="@+id/button1"
             android:layout_alignBottom="@+id/button1"
             android:layout_toRightOf="@+id/textView4"
-            android:text="Cancel" />
+            android:text="Batal" />
 
 </LinearLayout>
