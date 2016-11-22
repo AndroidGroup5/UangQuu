@@ -18,33 +18,9 @@
 
 ##<li> Identitas : </li>
 <ul>
-<li> Nama : Anindita Eka Suci </li>
+<li> Nama : Anindita Eka Suci / Faiza Aulia Rahma Putra / Muhammad Ridjal Fathoni Rosyidi / Via Alviola Sugiharto</li>
 <li> Kelas : XI RPL 4 </li>
-<li> No : 05 </li>
-<li> NIS : 4664/1383.070 </li>
+<li> No : 05 / 14 / 23 / 32 </li>
+<li> NIS : 4664/1383.070 / 4709/1428.070 / 4770/1489.070 / 4846/1565.070</li>
 <li> Nama Sekolah : SMK Telkom Malang </li>
-</ul>
-
-<ul>
-<li> Nama : Faiza Aulia Rahma Putra </li>
-<li> Kelas : XI RPL 4 </li>
-<li> No : 14 </li>
-<li> NIS : 4709/1428.070 </li>
-<li> Nama Sekolah : SMK Telkom Malang </li>
-</ul>
-
-<ul>
-<li> Nama : Muhammad Ridjal Fathoni Rosyidi </li>
-<li> Kelas : XI RPL 4 </li>
-<li> No : 23 </li>
-<li> NIS : 4770/1489.070 </li>
-<li> Nama Sekolah : SMK Telkom Malang </li>
-</ul>
-
-<ul>
-<li> Nama : Via Alviola Sugiharto </li>
-<li> Kelas : XI RPL 4 </li>
-<li> No : 32 </li>
-<li> NIS : 4846/1565.070 </li>
-<li> Nama Sekolah : SMK Telkom Malang </li>
-</ul>
+</ul
