@@ -98,6 +98,6 @@
         android:layout_alignParentBottom="true"
         android:layout_toEndOf="@+id/button1"
         android:layout_toRightOf="@+id/button1"
-        android:text="Back" />
+        android:text="Cancel" />
 
 </LinearLayout>

@@ -13,7 +13,7 @@ public class UpdateData extends AppCompatActivity {
     protected Cursor cursor;
     DataHelper dbHelper;
     Button ton1, ton2;
-    EditText text1, text2, text3, text4, text5;
+    EditText text1, text2, text3, text4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

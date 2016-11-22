@@ -12,7 +12,7 @@ public class LihatData extends AppCompatActivity {
     protected Cursor cursor;
     DataHelper dbHelper;
     Button ton2;
-    TextView text1, text2, text3, text4, text5;
+    TextView text1, text2, text3, text4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

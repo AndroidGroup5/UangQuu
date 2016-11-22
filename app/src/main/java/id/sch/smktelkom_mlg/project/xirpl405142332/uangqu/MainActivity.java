@@ -46,6 +46,16 @@ public class MainActivity extends AppCompatActivity {
         RefreshList();
     }
 
+    public void onBackPressed() {
+        new AlertDialog.Builder(this).setMessage("Apa anda yakin ingin keluar?").setCancelable(false)
+                .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int id) {
+                        MainActivity.this.finish();
+                    }
+                }).setNegativeButton("Tidak", null).show();
+    }
+
     public void RefreshList() {
         SQLiteDatabase db = dbcenter.getReadableDatabase();
         cursor = db.rawQuery("SELECT * FROM biodata", null);
@@ -63,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onItemClick(AdapterView arg0, View arg1, int arg2, long arg3) {
                 final String selection = daftar[arg2]; //.getItemAtPosition(arg2).toString();
-                final CharSequence[] dialogitem = {"Lihat Biodata", "Update Biodata", "Hapus Biodata"};
+                final CharSequence[] dialogitem = {"Lihat Catatan", "Update Catatan", "Hapus Catatan"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Pilihan");
                 builder.setItems(dialogitem, new DialogInterface.OnClickListener() {
