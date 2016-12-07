@@ -1,9 +1,9 @@
 <ol>
 ##<li> Nama Aplikasi </li>
-### UangQu
+#### UangQu
 
 ##<li> Penjelasan Aplikasi </li>
-### Aplikasi ini dapat mengatur agar keuangan user lebih teratur dan memungkinkan agar user tidak boros. User dapat mengetahui dari mana dan untuk apa saja keuangan user dalam sehari- hari.  
+#### Aplikasi ini dapat mengatur agar keuangan user lebih teratur dan memungkinkan agar user tidak boros. User dapat mengetahui dari mana dan untuk apa saja keuangan user dalam sehari- hari.  
 
 ##<li> Screenshot Aplikasi </li>
 ![screenshot_2016-11-22-13-05-58-761_id sch smktelkom_mlg project xirpl405142332 uangqu 1](https://cloud.githubusercontent.com/assets/21327758/20513118/75d20040-b0b6-11e6-8427-03caa16709dc.png)
@@ -17,9 +17,9 @@
 ![screenshot_2016-11-22-13-05-52-496_id sch smktelkom_mlg project xirpl405142332 uangqu 9](https://cloud.githubusercontent.com/assets/21327758/20513117/75bf562a-b0b6-11e6-9564-8e51f1e52766.png)
 
 ##<li> Video Aplikasi </li>
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=youtu.be/jh1P5FUEcFg
-" target="_blank"><img src="http://img.youtube.com/vi/youtu.be/jh1P5FUEcFg/0.jpg" 
-alt="![alt](https://cloud.githubusercontent.com/assets/21327758/20975909/76756a22-bcd3-11e6-9c40-551d63e17bcb.png)" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=jh1P5FUEcFg
+" target="_blank"><img src="http://img.youtube.com/vi/jh1P5FUEcFg/0.jpg" 
+alt="(https://cloud.githubusercontent.com/assets/21327758/20975909/76756a22-bcd3-11e6-9c40-551d63e17bcb.png)" width="240" height="180" border="10" /></a>
 
 ##<li> Link Apk Aplikasi </li>
 <ul>
@@ -38,6 +38,6 @@ alt="![alt](https://cloud.githubusercontent.com/assets/21327758/20975909/76756a2
 
 ##<li> NB: </li>
 <ul>
-<li>Pada saat input tanggal dan pilihan kategori, kami tetap meminta data dengan manual, karena saat kami pakai menggunakan date time picker dan radio button terjadi error, jadi kami kembalikan lagi ke yang manual</li>
-<li>Pada pojok kanan atas, kami sudah menambah menu untuk "About Us", yaitu untuk melihat tentang aplikasi yang kami buat ini dan tentang anggota kelompok kami. Tapi kami belum bisa memfungsikan tombol atau menu tersebut. Jadi hanya kami tambahkan menunya saja dan belum bisa berfungsi.</li>
+<li>####Pada saat input tanggal dan pilihan kategori, kami tetap meminta data dengan manual, karena saat kami pakai menggunakan date time picker dan radio button terjadi error, jadi kami kembalikan lagi ke yang manual</li>
+<li>####Pada pojok kanan atas, kami sudah menambah menu untuk "About Us", yaitu untuk melihat tentang aplikasi yang kami buat ini dan tentang anggota kelompok kami. Tapi kami belum bisa memfungsikan tombol atau menu tersebut. Jadi hanya kami tambahkan menunya saja dan belum bisa berfungsi.</li>
 </ul>
