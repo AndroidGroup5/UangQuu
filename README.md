@@ -1,8 +1,8 @@
 <ol>
-##<li> Judul Aplikasi </li>
+##<li> Nama Aplikasi </li>
 ### UangQu
 
-##<li> Deskripsi Aplikasi </li>
+##<li> Penjelasan Aplikasi </li>
 ### Aplikasi ini dapat mengatur agar keuangan user lebih teratur dan memungkinkan agar user tidak boros. User dapat mengetahui dari mana dan untuk apa saja keuangan user dalam sehari- hari.  
 
 ##<li> Screenshot Aplikasi </li>
@@ -16,11 +16,26 @@
 ![screenshot_2016-11-22-13-06-59-354_id sch smktelkom_mlg project xirpl405142332 uangqu 8](https://cloud.githubusercontent.com/assets/21327758/20513114/75287a2a-b0b6-11e6-8e57-c4eae0a1e8ae.png)
 ![screenshot_2016-11-22-13-05-52-496_id sch smktelkom_mlg project xirpl405142332 uangqu 9](https://cloud.githubusercontent.com/assets/21327758/20513117/75bf562a-b0b6-11e6-9564-8e51f1e52766.png)
 
-##<li> Identitas : </li>
+##<li> Video Aplikasi </li>
+[![JARINGANMU LEMAH BOSS!!!](https://img.youtube.com/vi/https://www.youtube.com/watch?v=jh1P5FUEcFg/0.jpg)]https://www.youtube.com/watch?v=jh1P5FUEcFg)
+
+##<li> Link Apk Aplikasi </li>
+<ul>
+<li>https://www.dropbox.com/s/gnqugnyfxjp0isk/id.sch.smktelkom_mlg.project.xirpl405142332.uangqu.apk?dl=0</li>
+</ul>
+
+##<li> Identitas Anggota Kelompok: </li>
 <ul>
 <li> Nama : Anindita Eka Suci | Faiza Aulia Rahma Putra | Muhammad Ridjal Fathoni Rosyidi | Via Alviola Sugiharto</li>
 <li> Kelas : XI RPL 4 </li>
 <li> No : 05 | 14 | 23 | 32 </li>
 <li> NIS : 4664/1383.070 | 4709/1428.070 | 4770/1489.070 | 4846/1565.070</li>
+<li> User GitHub : anindita88 | FaizaAulia | ridjalfathoni | viaalviola</li>
 <li> Nama Sekolah : SMK Telkom Malang </li>
+</ul>
+
+##<li> NB: </li>
+<ul>
+<li>Pada saat input tanggal dan pilihan kategori, kami tetap meminta data dengan manual, karena saat kami pakai menggunakan date time picker dan radio button terjadi error, jadi kami kembalikan lagi ke yang manual</li>
+<li>Pada pojok kanan atas, kami sudah menambah menu untuk "About Us", yaitu untuk melihat tentang aplikasi yang kami buat ini dan tentang anggota kelompok kami. Tapi kami belum bisa memfungsikan tombol atau menu tersebut. Jadi hanya kami tambahkan menunya saja dan belum bisa berfungsi.</li>
 </ul>
