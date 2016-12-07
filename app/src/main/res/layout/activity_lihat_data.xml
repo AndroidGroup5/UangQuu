@@ -83,11 +83,14 @@
 
     <Button
         android:id="@+id/button1"
+        style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/TextView03"
         android:layout_below="@+id/TextView03"
         android:layout_marginTop="34dp"
-        android:text="Kembali" />
+        android:background="@drawable/bgbtn"
+        android:text="Kembali"
+        android:textColor="@android:color/background_light" />
 
 </RelativeLayout>

@@ -9,85 +9,82 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".BuatData">
 
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:text="Jumlah Uang" />
-
-        <EditText
-            android:id="@+id/editText1"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView1"
-            android:layout_below="@+id/textView1"
-            android:inputType="number|numberSigned"></EditText>
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editText1"
-            android:layout_below="@+id/editText1"
-            android:layout_marginTop="10dp"
-            android:text="Tanggal" />
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView1"
+                    android:layout_below="@+id/textView1"
+                    android:hint="Jumlah Uang"
+                    android:inputType="number|numberSigned"></EditText>
+        </android.support.design.widget.TextInputLayout>
 
-        <EditText
-            android:id="@+id/editText2"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView2"
-            android:layout_below="@+id/textView2" />
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editText2"
-            android:layout_below="@+id/editText2"
-            android:layout_marginTop="10dp"
-            android:text="Kategori" />
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_below="@+id/textView2"
+                    android:hint="Tanggal" />
+        </android.support.design.widget.TextInputLayout>
 
-        <EditText
-            android:id="@+id/editText3"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_below="@+id/textView3" />
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editText3"
-            android:layout_below="@+id/editText3"
-            android:layout_marginTop="10dp"
-            android:text="Catatan" />
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:hint="Kategori" />
+        </android.support.design.widget.TextInputLayout>
 
-        <EditText
-            android:id="@+id/editText4"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView4"
-            android:layout_below="@+id/textView4" />
+            android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView4"
+                    android:layout_below="@+id/textView4"
+                    android:hint="Catatan" />
+        </android.support.design.widget.TextInputLayout>
 
         <Button
             android:id="@+id/button1"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/editText5"
             android:layout_alignParentBottom="true"
-            android:text="Simpan" />
+            android:layout_marginTop="7dp"
+            android:background="@drawable/bgbtn"
+            android:text="Simpan"
+            android:textColor="@android:color/background_light" />
 
         <Button
             android:id="@+id/button2"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/button1"
             android:layout_alignBottom="@+id/button1"
+            android:layout_marginTop="7dp"
             android:layout_toRightOf="@+id/textView4"
-            android:text="Batal" />
+            android:background="@drawable/bgbtn"
+            android:text="Batal"
+            android:textColor="@android:color/background_light" />
 
 </LinearLayout>
