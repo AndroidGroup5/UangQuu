@@ -17,7 +17,8 @@
 ![screenshot_2016-11-22-13-05-52-496_id sch smktelkom_mlg project xirpl405142332 uangqu 9](https://cloud.githubusercontent.com/assets/21327758/20513117/75bf562a-b0b6-11e6-9564-8e51f1e52766.png)
 
 ##<li> Video Aplikasi </li>
-[![JARINGANMU LEMAH BOSS!!!](https://img.youtube.com/vi/https://www.youtube.com/watch?v=jh1P5FUEcFg/0.jpg)]https://www.youtube.com/watch?v=jh1P5FUEcFg)
+![alt](https://cloud.githubusercontent.com/assets/21327758/20975909/76756a22-bcd3-11e6-9c40-551d63e17bcb.png)
+(https://img.youtube.com/vi/https://www.youtube.com/watch?v=jh1P5FUEcFg/0.jpg)]https://www.youtube.com/watch?v=jh1P5FUEcFg)
 
 ##<li> Link Apk Aplikasi </li>
 <ul>
